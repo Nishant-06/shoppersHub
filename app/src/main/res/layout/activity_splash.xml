@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_colour"
+    tools:context=".SplashActivity">
+    <ImageView
+        android:id="@+id/splash_logo_id"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginRight="104dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/shoppers_id"
+        android:layout_width="118dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="64dp"
+        android:gravity="center_horizontal"
+        android:text="SHOPPERS"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/splash_logo_id" />
+
+    <TextView
+        android:id="@+id/hub_id"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="152dp"
+        android:layout_height="23dp"
+        android:layout_marginBottom="208dp"
+        android:gravity="center_horizontal"
+        android:text="HUB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shoppers_id" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
